@@ -1,0 +1,174 @@
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:  rgb(31, 219, 31);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* Add style to about ehelka  */
+.navbar a.about {
+    float: right;
+    padding: 12px 16px;
+    font-size: 16px;
+    background-color: #ddd; 
+    color: #080808;
+    height: 55px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* body styling */
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M302.8237485375399 405.3335501754142L230.7426023274138 472.5503064424513 297.959358594451 544.6314526525774 370.04050480457704 477.4146963855403z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M186.15587826815158 209.33660438582905L249.02290092847272 332.7200835088056 372.4063800514493 269.85306084848446 309.53935739112814 146.4695817255079z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M159.074%2c446.528C210.839%2c445.477%2c245.549%2c397.961%2c268.564%2c351.581C288.688%2c311.026%2c292.812%2c263.41%2c269.069%2c224.862C246.349%2c187.975%2c202.381%2c172.625%2c159.074%2c173.818C118.005%2c174.949%2c81.345%2c196.106%2c59.097%2c230.646C34.574%2c268.717%2c22.57%2c315.097%2c41.601%2c356.19C63.85%2c404.232%2c106.141%2c447.603%2c159.074%2c446.528' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1332.782%2c327.214C1361.346%2c325.452%2c1384.115%2c307.391%2c1399.933%2c283.542C1418.189%2c256.017%2c1435.83%2c223.319%2c1421.388%2c193.615C1405.632%2c161.208%2c1368.806%2c144.588%2c1332.782%2c145.428C1298.153%2c146.235%2c1268.084%2c167.425%2c1251.054%2c197.587C1234.324%2c227.217%2c1231.416%2c264.034%2c1249.564%2c292.818C1266.721%2c320.031%2c1300.673%2c329.195%2c1332.782%2c327.214' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1130.504%2c478.263C1183.77%2c478.875%2c1245.345%2c480.168%2c1273.102%2c434.701C1301.535%2c388.127%2c1277.763%2c330.336%2c1249.19%2c283.848C1222.292%2c240.086%2c1181.794%2c205.515%2c1130.504%2c202.697C1073.999%2c199.592%2c1015.93%2c220.887%2c986.853%2c269.435C957.08%2c319.145%2c960.633%2c383.747%2c993.473%2c431.487C1022.791%2c474.107%2c1078.777%2c477.668%2c1130.504%2c478.263' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1408.0368262755567 69.14520624935248L1318.9125099232317-98.8593183845687 1228.36748860726 40.567787587740526z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+/* Positioning of the articles to center */
+article {
+    border-radius: 25px;
+    background: #e0dfdf;
+    padding: 20px;
+    width: 80%;
+    margin-left: 10% ;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: lef;
+}
+
+/* Styling article poem */
+div.Poems {
+    color: #080808;
+    
+}
+ svg {
+    float: right;
+    
+ }
+/* Style of the h3 and positioning */
+h2 {
+    text-shadow: #8f908f;
+    margin-left: 45%;
+    color: white;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+/* positioning the poem section */
+.container{
+    display: inline-flex;
+    width: 100%;
+    gap: 2em;
+}
+/* positioning article of poems */
+#Poems article{
+    margin: 0 0 2em 0;
+    width: 35%;
+    background-color: rgb(172, 242, 242);
+
+}
+/* Styling the collapsing poems */
+.collapse {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-align: left;
+    font-family: none;
+    font-size: 16px;
+}
+.active,
+.collapse:hover {
+    text-align: left;
+    background-color: transparent;
+    font-family: none;
+    font-size: 16px;
+}
+.text {
+    display: none;
+}
+.vi, 
+.vi button {
+   height: auto;
+   margin: auto;
+}
+
+/* self growth section styles*/
+.self-growth {
+    color: rgb(173, 169, 169);
+}
+
+footer{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='300' preserveAspectRatio='none' viewBox='0 0 1440 300'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1020%26quot%3b)' fill='none'%3e%3crect width='1440' height='300' x='0' y='0' fill='rgba(199%2c 201%2c 205%2c 1)'%3e%3c/rect%3e%3cpath d='M1464 300L0 300 L0 157.85Q42.97 128.82%2c 72 171.79Q120.94 148.72%2c 144 197.66Q174.26 155.92%2c 216 186.18Q260.03 110.21%2c 336 154.24Q402.69 100.93%2c 456 167.61Q527.29 118.9%2c 576 190.19Q594.15 136.34%2c 648 154.5Q714.11 100.61%2c 768 166.72Q821.3 148.02%2c 840 201.32Q890.66 131.98%2c 960 182.64Q990.71 141.35%2c 1032 172.06Q1080.74 148.8%2c 1104 197.54Q1140.82 114.36%2c 1224 151.18Q1300.19 107.38%2c 1344 183.57Q1398.76 118.33%2c 1464 173.09z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1512 300L0 300 L0 234.53Q24.67 187.2%2c 72 211.87Q125.89 145.76%2c 192 199.66Q241.82 177.48%2c 264 227.3Q317.07 160.38%2c 384 213.45Q412.43 169.88%2c 456 198.31Q532.19 154.5%2c 576 230.69Q601.84 184.53%2c 648 210.37Q698.2 140.57%2c 768 190.77Q848.09 150.86%2c 888 230.95Q941.53 164.49%2c 1008 218.02Q1061.56 151.58%2c 1128 205.14Q1180.37 185.5%2c 1200 237.87Q1254.01 171.88%2c 1320 225.88Q1340.84 174.72%2c 1392 195.55Q1460.75 144.3%2c 1512 213.05z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1464 300L0 300 L0 258.74Q25.68 212.42%2c 72 238.09Q151.25 197.34%2c 192 276.59Q203.53 216.12%2c 264 227.65Q331.99 175.64%2c 384 243.63Q456.31 195.94%2c 504 268.25Q519 211.25%2c 576 226.24Q623.04 201.28%2c 648 248.32Q722.25 202.56%2c 768 276.81Q822.13 210.94%2c 888 265.06Q907.57 212.63%2c 960 232.2Q1001.92 202.12%2c 1032 244.04Q1106.16 198.2%2c 1152 272.37Q1192.37 192.74%2c 1272 233.11Q1341.32 182.43%2c 1392 251.75Q1435.09 222.84%2c 1464 265.93z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1464 300L0 300 L0 291.99Q21.88 241.88%2c 72 263.76Q152.8 224.56%2c 192 305.36Q222.27 263.63%2c 264 293.91Q317.75 227.66%2c 384 281.41Q436.94 214.35%2c 504 267.29Q558.02 249.31%2c 576 303.33Q617.18 272.51%2c 648 313.69Q697.13 242.81%2c 768 291.94Q819.59 223.53%2c 888 275.13Q940.33 255.46%2c 960 307.79Q1010.98 238.77%2c 1080 289.75Q1134.84 224.59%2c 1200 279.42Q1271.84 231.25%2c 1320 303.09Q1339.06 250.14%2c 1392 269.2Q1437.6 242.79%2c 1464 288.39z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1020'%3e%3crect width='1440' height='300' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    height: 300px;
+    padding: 12px 16px;
+    font-size: 30px;
+    border-radius: 1em;
+}
+
+
+
+
+
