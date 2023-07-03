@@ -149,11 +149,7 @@ h5 {
 .text {
     display: none;
 }
-.vi, 
-.vi button {
-   height: auto;
-   margin: auto;
-}
+
 
 /* self growth section styles*/
 .self-growth {
